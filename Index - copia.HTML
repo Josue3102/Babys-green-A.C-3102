@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BABY´S GREEN S.A</title>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+  <style>
+    body {
+      background-color: #50bfc5;
+      color: white;
+      font-family: cursive;
+      text-align: center;
+    }
+
+    header {
+      margin: 20px 0;
+      font-size: 40px;
+      font-weight: bold;
+    }
+
+    .accordion-button {
+      font-size: 22px;
+      font-weight: bold;
+      text-align: center;
+      justify-content: center;
+      background-color: #70d6f0;
+      color: black;
+      border-radius: 50px;
+    }
+
+
+    .img-card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .img-title {
+      margin-top: 10px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>BABY´S GREEN S.A</header>
+
+
+  <div class="accordion container mb-5" id="accordionFlushExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#one">
+          ¿Qué es nuestro producto?
+        </button>
+      </h2>
+      <div id="one" class="accordion-collapse collapse">
+        <div class="accordion-body">
+     El plástico biodegradable es un material que puede ser descompuesto por microorganismos en agua, dióxido de carbono y biomasa, bajo condiciones específicas. A diferencia de los plásticos convencionales, estos no dejan residuos duraderos porque se descomponen en un periodo de tiempo mucho más corto. A menudo se fabrican a partir de recursos renovables como el maíz o el trigo. 
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#two">
+          ¿Para qué sirve?
+        </button>
+      </h2>
+      <div id="two" class="accordion-collapse collapse">
+        <div class="accordion-body">
+ El plástico biodegradable sirve para reducir la contaminación y el tiempo de descomposición de los residuos, ya que se degrada en elementos naturales como agua, dióxido de carbono y biomasa en un periodo más corto que el plástico convencional. Se utiliza en una amplia gama de productos, desde bolsas de residuos y envases de alimentos hasta elementos en la industria automotriz, cosmética y de la salud. 
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#three">
+          Proceso de elaboración
+        </button>
+      </h2>
+      <div id="three" class="accordion-collapse collapse">
+        <div class="accordion-body">
+          El proceso de elaboración del plástico biodegradable generalmente comienza con la extracción de un almidón (de maíz, patata, etc.) que se calienta y mezcla con plastificantes como agua y glicerina para crear un gel. Este gel se procesa para formar el polímero, seguido por un proceso de moldeo (por ejemplo, extrusión), y luego se deja secar para obtener el producto final. 
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="img-card" data-bs-toggle="modal" data-bs-target="#modal1">
+          <img src="data:image/jpeg;base64,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" alt="Reciclaje">
+          <div class="img-title">Reciclaje de plástico</div>
+          <p>Las principales formas de reciclar el plástico biodegradable son mediante el compostaje industrial o a través de la recolección de residuos orgánicos de la comunidad, si esta lo permite.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="img-card" data-bs-toggle="modal" data-bs-target="#modal2">
+          <img src="https://www.rotolia.com/blog/wp-content/uploads/2023/05/proceso-de-reciclaje-de-plastico.jpg" alt="Reutilizacion.">
+          <div class="img-title">Reutilizacion</div>
+          <p>Reutilizar plástico biodegradable sirve principalmente para reducir la contaminación ambiental, ya que estos materiales se descomponen de forma natural y no se acumulan en los vertederos como los plásticos convencionales. La reutilización promueve la economía circular, permitiendo que el material se transforme en nuevas aplicaciones o, en muchos casos, se composte para convertirse en abono para el suelo, beneficiando la agricultura. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal1" tabin
